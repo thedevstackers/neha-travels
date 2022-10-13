@@ -123,7 +123,7 @@ const GroupFare = () => {
     return (
         <div className="app-container">
             <h2>Add a Contact</h2>
-            <form onSubmit={handleAddFormSubmit}>
+            <form onSubmit={handleAddFormSubmit} className="add-form">
                 <input
                     type="text"
                     name="fullName"
@@ -163,7 +163,7 @@ const GroupFare = () => {
                             <th>Address</th>
                             <th>Phone Number</th>
                             <th>Email</th>
-                            <th>Actions</th>
+                            <th className="actions">Actions</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -199,7 +199,7 @@ const GroupFare = () => {
                     }
                 </table>
             </form>
-            {passengers.length !== 0 && <div>
+            {passengers.length !== 0 && <div className="export">
                 <input type="text" value={fileName} onChange={(e) => setFileName(e.target.value)} placeholder="Enter a file name for export" />
                 <button onClick={handleOnExport}>Export</button>
             </div>}

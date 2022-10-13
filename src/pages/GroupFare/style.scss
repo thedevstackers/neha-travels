@@ -7,6 +7,7 @@
 }
 
 table {
+    table-layout: fixed;
     border-collapse: collapse;
     width: 100%;
     background-color: white;
@@ -26,44 +27,37 @@ table {
     td {
         border: 0.1px solid black;
         border-collapse: collapse;
+        padding: 0.3rem 0.6rem;
     }
 }
 
-.serial-number{
+form td:last-child {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.serial-number {
     width: 5rem;
 }
 
-// tr{
-//     border: 3px solid black;
-// }
+.actions {
+    width: 12rem;
+}
 
-// th,
-// td {
-//     text-align: left;
-//     padding: 8px;
-// }
-
-// th {
-//     border: 2px solid white;
-//     background-color: black;
-//     color: white;
-// }
-
-// form {
-//     display: flex;
-//     gap: 5px;
-// }
-
-// form td:last-child {
-//     display: flex;
-//     justify-content: space-evenly;
-// }
-
-table {
-
-    td {
-        padding: 0.7rem 0.6rem;
-        border: 0.1px solid black;
-        border-collapse: collapse;
+.add-form {
+    input {
+        width: 20rem;
+        padding: 0.5rem 0.3rem;
     }
+}
+
+.export {
+    input {
+        width: 20rem;
+        padding: 0.5rem 0.3rem;
+    }
+}
+
+button {
+    padding: 0.5rem 1rem;
 }
