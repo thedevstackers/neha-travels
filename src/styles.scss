@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    background-color: rgb(213, 255, 212);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    margin: 0.5rem 3rem;
+    height: 65px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0 1rem;
+}
+
+header article {
+    margin: 0.5rem 3rem;
+}
+
+header article .icon {
+    padding: 0 0.5rem;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    padding: 0.5rem 0;
+}

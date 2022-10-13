@@ -1,0 +1,63 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+    margin: 3rem;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+
+    thead {
+        background-color: rgb(26, 19, 19);
+        color: white;
+        border-bottom: 2px solid black;
+
+        th {
+            border: 1px solid white padding
+        }
+    }
+
+    td {
+        border: 0.1px solid black;
+        border-collapse: collapse;
+        padding: 0.3rem 0.6rem;
+    }
+}
+
+form td:last-child {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.serial-number {
+    width: 5rem;
+}
+
+.actions {
+    width: 12rem;
+}
+
+.add-form {
+    input {
+        width: 20rem;
+        padding: 0.5rem 0.3rem;
+    }
+}
+
+.export {
+    input {
+        width: 20rem;
+        padding: 0.5rem 0.3rem;
+    }
+}
+
+button {
+    padding: 0.5rem 1rem;
+}
