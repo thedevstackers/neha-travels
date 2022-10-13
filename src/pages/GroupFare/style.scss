@@ -1,0 +1,69 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+    margin: 3rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+
+    thead {
+        background-color: rgb(26, 19, 19);
+        color: white;
+        border-bottom: 2px solid black;
+
+        th {
+            border: 1px solid white padding
+        }
+    }
+
+    td {
+        border: 0.1px solid black;
+        border-collapse: collapse;
+    }
+}
+
+.serial-number{
+    width: 5rem;
+}
+
+// tr{
+//     border: 3px solid black;
+// }
+
+// th,
+// td {
+//     text-align: left;
+//     padding: 8px;
+// }
+
+// th {
+//     border: 2px solid white;
+//     background-color: black;
+//     color: white;
+// }
+
+// form {
+//     display: flex;
+//     gap: 5px;
+// }
+
+// form td:last-child {
+//     display: flex;
+//     justify-content: space-evenly;
+// }
+
+table {
+
+    td {
+        padding: 0.7rem 0.6rem;
+        border: 0.1px solid black;
+        border-collapse: collapse;
+    }
+}
